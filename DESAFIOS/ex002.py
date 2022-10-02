@@ -1,3 +1,5 @@
+'''Leia um numero inteiro e diga se e par ou impar. em caso do usuario digitar uma string ou um float trate os erros e imprima na tela.'''
+
 import re
  
 def is_float(val):
