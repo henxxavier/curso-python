@@ -1,4 +1,4 @@
-user_name = input('Digite seu nome de usuario: ')
+user_name = input('Digite seu nome de usuario: ').strip().upper()
 
 if len(user_name) <= 4:
     print('Seu nome de usuario e pequeno demais')
